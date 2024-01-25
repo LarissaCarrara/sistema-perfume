@@ -1,0 +1,155 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: auto;
+    background-color: antiquewhite;
+    /* overflow-y:auto;
+    overflow-x: none; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(220, 196, 166);
+    align-items: center;
+
+}
+.icon {
+    width: 15vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon{
+    width: 45px;
+}
+#tit{
+    margin: 0;
+    height: auto;
+}
+.links{
+    width: 85vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.plink{
+    margin: 50px;
+    color: black;
+}
+#carrinho{
+    width: 30px;
+    margin: 50px;
+}
+section{
+    max-width: 100vw;
+    max-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:scroll;
+    flex-flow: row wrap;
+    /* overflow: hidden; */
+    overflow-x: visible;
+    padding-top: 30px;
+    /* position: absolute;
+    top: 112px; */
+    
+
+
+}
+.card{
+    width: 20%;
+    height: 80%;
+    background-color: blanchedalmond;
+    margin: 0 10px 30px 10px;
+  
+  
+}
+.img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.preco{
+    margin: 11px 0 0 11px;
+    height: 15px;
+}
+.parcela{
+    margin: 11px 0 0 11px;
+    font-size: 10px;
+}
+.card:hover{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+    cursor: pointer;
+}
+#perf1{
+width: 80%;
+height: 100%;
+
+}
+
+.tit-perf{
+    font-size: 13px;
+    margin:11px
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(230, 218, 203);
+    /* bottom:0;
+    position: fixed; */
+}
+.rodape{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+.midia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon_midia{
+    width: 20px;
+    margin: 10px;
+}
+
+a{
+    color: black;
+    
+}
+.plink:hover{
+    color: gray;
+    text-decoration: underline;
+
+
+}
