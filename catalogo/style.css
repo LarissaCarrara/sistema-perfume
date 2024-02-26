@@ -9,7 +9,7 @@
 body{
     width: 100vw;
     height: auto;
-    background-color: antiquewhite;
+    background-color: rgb(211, 203, 193);
     /* overflow-y:auto;
     overflow-x: none; */
     display: flex;
@@ -75,7 +75,7 @@ section{
 .card{
     width: 20%;
     height: 80%;
-    background-color: blanchedalmond;
+    background-color: rgb(219, 206, 184);
     margin: 0 10px 30px 10px;
   
   
@@ -120,7 +120,7 @@ height: 100%;
 footer{
     width: 100vw;
     height: 10vh;
-    background-color: rgb(230, 218, 203);
+    background-color:rgb(220, 196, 166);
     /* bottom:0;
     position: fixed; */
 }
